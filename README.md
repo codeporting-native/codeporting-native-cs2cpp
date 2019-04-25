@@ -1,6 +1,6 @@
 ﻿# Codeporting.Native for C# to C++
 
-csPorter for C++ is a porter application that migrates C# project to C++
+Codeporting.Native for C# to C++ is a porter application that migrates C# project to C++
 
 This repository contains [Example C# projects](https://github.com/codeporting-native/codePorting.native-cpp) for codeporting.native for C# to C++ to demonstrate [how C# code is ported to C++](https://wiki.codeporting.com/cpp/Getting%20Started/). Visit [codeporting.com](https://www.codeporting.com/) to get more details of this software
 
