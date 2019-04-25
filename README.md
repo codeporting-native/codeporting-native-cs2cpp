@@ -15,7 +15,7 @@ File template.porter.config is a codeporting.native from C# to C++ configuration
 
 Directory | Description
 --------- | -----------
-[Examples](https://github.com/codeporting-native)  | A collection of sample C# projects that help you learn and explore the Codeporting.Native for C# to C++
+[Examples](https://github.com/codeporting-native)  | A collection of sample C# projects that help you learn and explore the Codeporting.Native from C# to C++
 
 ## Resources
 
