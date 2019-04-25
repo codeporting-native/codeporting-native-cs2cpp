@@ -4,7 +4,7 @@ Codeporting.Native from C# to C++ is a porter application that migrates C# proje
 
 This repository contains [Example C# projects](https://github.com/codeporting-native/codePorting.native-cpp) for codeporting.native from C# to C++ to demonstrate [how C# code is ported to C++](https://wiki.codeporting.com/cpp/Getting%20Started/). Visit [codeporting.com](https://www.codeporting.com/) to get more details of this software
 
-File template.porter.config is a codeporting.native for C# to C++ configuration file which can be used as a base for compiling a configuration for your own project.
+File template.porter.config is a codeporting.native from C# to C++ configuration file which can be used as a base for compiling a configuration for your own project.
 
 <p align="center">
 
