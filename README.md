@@ -8,7 +8,7 @@ File template.porter.config is a CodePorting.Native Cs2Cpp configuration file wh
 
 <p align="center">
 
-  <a title="Download complete sample C# projects code to test codeporting for C++" href="https://github.com/codeporting-native-cs2cpp/codePorting-native-cs2cpp/archive/master.zip">
+  <a title="Download complete sample C# projects code to test codeporting for C++" href="https://github.com/codeporting-native/codeporting-native-cs2cpp/archive/master.zip">
 	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
   </a>
 </p>
