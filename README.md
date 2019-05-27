@@ -2,7 +2,7 @@
 
 CodePorting.Native Cs2Cpp is a porter application that migrates C# project to C++
 
-This repository contains [Example C# projects](https://github.com/codeporting-native/codePorting-native-cs2cpp) for CodePorting.Native Cs2Cpp to demonstrate [how C# code is ported to C++](https://wiki.codeporting.com/cpp/Getting%20Started/). Visit [codeporting.com](https://www.codeporting.com/) to get more details of this software
+This repository contains [Example C# projects](https://github.com/codeporting-native/codePorting-native-cs2cpp) for CodePorting.Native Cs2Cpp to demonstrate [how C# code is ported to C++](https://wiki.codeporting.com/native/cs2cpp/getting-started/). Visit [codeporting.com](https://www.codeporting.com/) to get more details of this software
 
 File template.porter.config is a CodePorting.Native Cs2Cpp configuration file which can be used as a base for compiling a configuration for your own project.
 
@@ -15,13 +15,13 @@ File template.porter.config is a CodePorting.Native Cs2Cpp configuration file wh
 
 Directory | Description
 --------- | -----------
-[Examples](https://github.com/codeporting-native-cs2cpp)  | A collection of sample C# projects that help you learn and explore the CodePorting.Native Cs2Cpp
+[Examples](https://github.com/codeporting-native/codeporting-native-cs2cpp)  | A collection of sample C# projects that help you learn and explore the CodePorting.Native Cs2Cpp
 
 ## Resources
 
 + **Website:** [www.codeporting.com](https://www.codeporting.com/)
-+ **Product Home:** [CodePorting.Native Cs2Cpp](https://products.codeporting.com/)
++ **Product Home:** [CodePorting.Native Cs2Cpp](https://products.codeporting.com/native)
 + **Download:** [Install CodePorting.Native Cs2Cpp](https://downloads.codeporting.com/)
-+ **Documentation:** [CodePorting.Native Cs2Cpp Documentation](https://wiki.codeporting.com/cpp/)
++ **Documentation:** [CodePorting.Native Cs2Cpp Documentation](https://wiki.codeporting.com/native/)
 + **Free Support Forum:** [CodePorting.Native Cs2Cpp Free Support Forum](https://forum.codeporting.com/)
 + **Blog:** [CodePorting.Native Cs2Cpp Blog](https://blog.codeporting.com/)
