@@ -11,5 +11,19 @@
         {
             return "IdDqD";
         }
+
+        private static bool IsPorted = false;
+        public static bool Ported
+        {
+            get
+            {
+                return IsPorted;
+            }
+        }
+
+        static SimpleLibrary()
+        {
+            //CPPCODE: IsPorted = true;
+        }
     }
 }
