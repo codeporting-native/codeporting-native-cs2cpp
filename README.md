@@ -13,10 +13,6 @@ File template.porter.config is a CodePorting.Native Cs2Cpp configuration file wh
   </a>
 </p>
 
-Directory | Description
---------- | -----------
-[Examples](https://github.com/codeporting-native/codeporting-native-cs2cpp)  | A collection of sample C# projects that help you learn and explore the CodePorting.Native Cs2Cpp
-
 ## Resources
 
 + **Website:** [www.codeporting.com](https://www.codeporting.com/)
