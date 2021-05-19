@@ -6,7 +6,7 @@ This repository contains [Example C# projects](https://github.com/codeporting-na
 
 [template.porter.config](https://github.com/codeporting-native/codeporting-native-cs2cpp/blob/master/template.porter.config) file is a CodePorting.Native Cs2Cpp configuration file which can be used as a base for compiling a configuration for your own project.
 
-[Qt helpers](https://github.com/codeporting-native/codeporting-native-cs2cpp/tree/master/qt_helpers) project contains the code that allows converting CodePorting.Native Cs2Cpp types into Qt ones and vice versa. Examples are slao included.
+[Qt helpers](https://github.com/codeporting-native/codeporting-native-cs2cpp/tree/master/qt_helpers) project contains the code that allows converting CodePorting.Native Cs2Cpp types into Qt ones and vice versa. Examples are also included.
 
 [Qt Creator debugging helpers](https://github.com/codeporting-native/codeporting-native-cs2cpp/tree/master/qtcreator_debugging_helpers) subdirectory contains [Qt Creator debugging helper file](https://github.com/codeporting-native/codeporting-native-cs2cpp/blob/master/qtcreator_debugging_helpers/asposetypes.py) that allows inspecting contents of CodePorting.Native Cs2Cpp types in Qt Creator's debugger. Example project is also included.
 
