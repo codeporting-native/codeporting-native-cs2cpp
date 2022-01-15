@@ -26,8 +26,8 @@ Item | Description
 ## Resources
 
 + **Website:** [www.codeporting.com](https://www.codeporting.com/)
-+ **Product Home:** [CodePorting.Native Cs2Cpp](https://products.codeporting.com/native)
++ **Product Home:** [CodePorting.Native Cs2Cpp](https://products.codeporting.com/native/cs2cpp)
 + **Download:** [Install CodePorting.Native Cs2Cpp](https://downloads.codeporting.com/)
-+ **Documentation:** [CodePorting.Native Cs2Cpp Documentation](https://wiki.codeporting.com/native/)
++ **Documentation:** [CodePorting.Native Cs2Cpp Documentation](https://docs.codeporting.com/native/cs2cpp/)
 + **Free Support Forum:** [CodePorting.Native Cs2Cpp Free Support Forum](https://forum.codeporting.com/)
 + **Blog:** [CodePorting.Native Cs2Cpp Blog](https://blog.codeporting.com/)
