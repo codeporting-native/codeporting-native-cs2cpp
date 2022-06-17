@@ -1,4 +1,4 @@
-# QtCreator debugging helpers for CodePorting.Native.Cs2Cpp
+# QtCreator debugging helpers for CodePorting.Translator.Cs2Cpp
 from dumper import Children, SubItem
 from utils import DisplayFormat
 

@@ -1,4 +1,4 @@
-# Conversion methods between Qt types and CodePorting.Native.Cs2Cpp types
+# Conversion methods between Qt types and CodePorting.Translator.Cs2Cpp.Framework types
 
 Header `qtcorehelpers.h` contains:
 - conversions between `System::String` and `QString`
@@ -23,7 +23,7 @@ Header `qtguihelpers.h` contains:
 
 ## How to build and run tests using Visual Studio 2019
 
-1) Provide path to built instance of CodePorting.Native.Cs2Cpp via ASPOSE_ROOT environment variable.
+1) Provide path to built instance of CodePorting.Translator.Cs2Cpp.Framework via ASPOSE_ROOT environment variable.
 
 2) Generate Visual Studio solution:
    ```bat
@@ -56,7 +56,7 @@ Header `qtguihelpers.h` contains:
 
 ## How to build and run tests using Qt Creator
 
-1) Provide path to built instance of CodePorting.Native.Cs2Cpp via ASPOSE_ROOT environment variable.
+1) Provide path to built instance of CodePorting.Translator.Cs2Cpp.Framework via ASPOSE_ROOT environment variable.
 
 2) Open Qt Creator.
 

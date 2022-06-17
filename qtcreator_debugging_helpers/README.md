@@ -1,4 +1,4 @@
-# QtCreator debugging helpers for CodePorting.Native.Cs2Cpp
+# QtCreator debugging helpers for CodePorting.Translator.Cs2Cpp.Framework
 
 ## How to install debugging helpers
 
@@ -8,7 +8,7 @@ More info here: https://doc.qt.io/qtcreator/creator-debugging-helpers.html
 
 ## How to build examples
 
-1) Provide path to built instance of CodePorting.Native.Cs2Cpp via ASPOSE_ROOT environment variable.
+1) Provide path to built instance of CodePorting.Translator.Cs2Cpp.Framework via ASPOSE_ROOT environment variable.
 2) Open Qt Creator.
 3) Select **File > Open File or Project...** and specify the location of the `CMakeLists.txt`.
 4) Select **Configure project**.

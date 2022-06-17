@@ -12,7 +12,7 @@ endif()
 find_package(QT NAMES Qt6 Qt5 COMPONENTS Gui REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Gui REQUIRED PATHS ${QT_DIR})
 
-find_package(CodePorting.Native.Cs2Cpp REQUIRED PATHS ${ASPOSE_ROOT})
+find_package(CodePorting.Translator.Cs2Cpp.Framework REQUIRED PATHS ${ASPOSE_ROOT})
 
 file(READ "${ASPOSE_ROOT}/external/gtest.version" GTEST_VERSION)
 set(GTEST_ROOT "${ASPOSE_ROOT}/external/${GTEST_VERSION}/fused-src")
@@ -37,13 +37,13 @@ else()
 endif()
 
 target_include_directories(${PROJECT_NAME} PRIVATE include)
-target_link_libraries(${PROJECT_NAME} PRIVATE Qt${QT_VERSION_MAJOR}::Gui Aspose::CodePorting.Native.Cs2Cpp gtest)
+target_link_libraries(${PROJECT_NAME} PRIVATE Qt${QT_VERSION_MAJOR}::Gui Aspose::CodePorting.Translator.Cs2Cpp.Framework gtest)
 
 enable_testing()
 add_test(NAME ${PROJECT_NAME} COMMAND ${PROJECT_NAME})
 
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
-    COMMAND ${CMAKE_COMMAND} -E copy_if_different $<TARGET_FILE:Aspose::CodePorting.Native.Cs2Cpp> $<TARGET_FILE_DIR:${PROJECT_NAME}>
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different $<TARGET_FILE:Aspose::CodePorting.Translator.Cs2Cpp.Framework> $<TARGET_FILE_DIR:${PROJECT_NAME}>
 )
 
 if(WIN32)

@@ -709,7 +709,7 @@ TEST(QtCoreHelpers, WrapQBuffer)
 
     const auto array = System::MakeArray<uint8_t>(1000);
 
-    EXPECT_THROW(stream->Read(nullptr, 0, 0), System::ArgumentNullException);
+    EXPECT_THROW(stream->Read(static_cast<System::ArrayPtr<uint8_t>>(nullptr), 0, 0), System::ArgumentNullException);
     EXPECT_THROW(stream->Read(array, -1, 0), System::ArgumentOutOfRangeException);
     EXPECT_THROW(stream->Read(array, 0, -1), System::ArgumentOutOfRangeException);
     EXPECT_THROW(stream->Read(array, 0, 1001), System::ArgumentOutOfRangeException);
@@ -758,7 +758,7 @@ TEST(QtCoreHelpers, WrapQFile)
 
         const auto array = System::MakeArray<uint8_t>(1000);
 
-        EXPECT_THROW(stream->Read(nullptr, 0, 0), System::ArgumentNullException);
+        EXPECT_THROW(stream->Read(static_cast<System::ArrayPtr<uint8_t>>(nullptr), 0, 0), System::ArgumentNullException);
         EXPECT_THROW(stream->Read(array, -1, 0), System::ArgumentOutOfRangeException);
         EXPECT_THROW(stream->Read(array, 0, -1), System::ArgumentOutOfRangeException);
         EXPECT_THROW(stream->Read(array, 0, 1001), System::ArgumentOutOfRangeException);
